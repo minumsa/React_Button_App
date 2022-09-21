@@ -37,5 +37,5 @@ jobs:
         SOURCE_DIR: './build'
         AWS_REGION: 'ap-northeast-2'
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AKIAUYEOLGBNAF5OXP3R }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.eNfjwN2jhzzT4/TRIw6IGf/4TLnDaxoFgUYgdkdH }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
